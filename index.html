@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Atividade 27/10</title>
+
+  <!-- Link para pegar o estilo CSS dos servidores Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <script src="assets/Js/scrpit.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"></script>
+
+    <style>
+       
+      html {
+          scroll-behavior: smooth;
+      }
+    </style>
+
+</head>
+
+<body class="bg-dark">
+
+
+
+  <!-- Menu -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow p-3 mb-5 rounded sticky-top">
+    <a class="navbar-brand" href="index.html">Hamburgueria</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+      aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <a href="index.html">
+      <div>
+        <img width="30" height="30" src="assets/img/burguer.png" alt="">
+      </div>
+    </a>
+
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link text-light" href="#carouselExampleIndicators">Inicio<span class="sr-only">(página atual)</span></a>
+        </li>
+       
+        <li class="nav-item active">
+          <a class="nav-link text-light" href="#historia">História<span class="sr-only">(página atual)</span></a>
+        </li>
+       
+        <li class="nav-item active">
+          <a class="nav-link text-light" href="#formulario">Formulário<span class="sr-only">(página atual)</span></a>
+        </li>
+       
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Redes sociais
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" target="_blank" href="https://www.facebook.com/">Facebook</a>
+            <a class="dropdown-item" target="_blank" href="https://www.instagram.com/">Instagram</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" target="_blank" href="https://www.linkedin.com/">Linkedin</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Pesquisar</button>
+      </form>
+    </div>
+  </nav>
+  <!-- /Menu -->
+
+
+  <!-- Carousel -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="assets/img/HamburguerCapa.jpg" alt="Primeiro Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="assets/img/Hamburguer1.webp" alt="Segundo Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="assets/img/Hamburguer2.jpg" alt="Terceiro Slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+
+
+
+  <!-- /Carousel -->
+
+  <!-- Jumbotron -->
+
+  <div class="jumbotron jumbotron-fluid bg-danger">
+    <div class="container">
+      <h1 class="display-4 text-center text-light">Bem vindo ao nosso site!</h1>
+      <p class="lead text-center text-light">Temos muito orgulho de apresentar o nosso mais novo site!</p>
+    </div>
+  </div>
+
+  <!-- /Jumbotron -->
+
+
+  <!-- Grid -->
+
+
+
+  <div id="historia" class="container">
+
+    <div class="row mt-5 d-flex justify-content-center">
+
+      <div class="col-md-6 p-30">
+
+        <div class="bg-dark">
+
+          <h3 class="text-center text-light">Um pouco da nossa história</h3>
+
+          <p class="text-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi perferendis, ipsa
+            soluta fuga asperiores sapiente esse eligendi sit nihil hic velit unde pariatur fugit non quaerat nobis
+            molestiae quo praesentium.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam ab fugiat facere. Porro aliquid culpa, maxime
+            fuga numquam voluptates obcaecati corrupti illo commodi nemo perferendis unde ullam assumenda consequatur.
+            Ab.
+          </p>
+          <p class="text-light">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis laboriosam amet adipisci animi dolorum nostrum
+            totam est, suscipit officiis, maiores voluptas culpa in sed, enim magnam. Iusto eveniet ipsam laborum!
+
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis dicta consequuntur asperiores vitae ut
+            pariatur vel eius quis voluptatem dolor possimus dolorem quo et voluptates reiciendis, eum id. Eaque, at.
+          </p>
+        </div>
+
+      </div>
+
+
+      <div class="col-md-6 p-30">
+        <img height="370" src="assets/img/icone2 hamburguer.jpg" alt="">
+
+      </div>
+
+      <!-- Card -->
+
+
+      <div class="mb-3">
+
+        <div class="row mt-5 d-flex justify-content-center ">
+
+          <div class="col-md-4 mt-5">
+
+            <div class="card bg-dark" style="width: 18rem;">
+              <img class="card-img-top " src="assets/img/Card0.jpg" alt="Imagem de capa do card">
+              <div class="card-body">
+                <p class="card-text text-light">Mussum Ipsum, cacilds vidis litro abertis. Manduma pindureta quium dia
+                  nois paga. Não sou faixa preta cumpadi, sou preto inteiris, inteiris. Nullam volutpat risus nec leo
+                  commodo, ut interdum diam laoreet. Sed non consequat odio.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mt-5">
+            <div class="card bg-dark" style="width: 18rem;">
+              <img height="156" class="card-img-top" src="assets/img/Card5.jpg" alt="Imagem de capa do card">
+              <div class="card-body">
+                <p class="card-text text-light">Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss deixa as
+                  pessoas mais interessantis. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Tá
+                  deprimidis, eu conheço uma cachacis que pode alegrar sua vidis. Paisis, filhis, espiritis santis.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mt-5">
+            <div class="card bg-dark" style="width: 18rem;">
+              <img height="156" class="card-img-top" src="assets/img/Card1.jpg" alt="Imagem de capa do card">
+              <div class="card-body">
+                <p class="card-text text-light">Mussum Ipsum, cacilds vidis litro abertis. Leite de capivaris, leite de
+                  mula manquis sem cabeça. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! In
+                  elementis mé pra quem é amistosis quis leo. Detraxit consequat et quo num tendi nada.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- /Card -->
+
+      <h3 class="text-center text-light mt-5">Temos músicas ao vivo aos sábados!</h3>
+      <br>
+      <div class="row mt-5 mb-5 d-flex justify-content-center">
+
+
+        <div class="col-md-6 justify-content-center">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/zKAAFsovtM4" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+
+        <div class="col-md-6">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/6p3ETYgcEN8" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- /Grid -->
+
+    <!-- Formulário -->
+    <div class="row" id="formulario">
+
+      <div class="col-md-12 mb-5 mt-5">
+        <h4 class="text-center text-light">
+          Entre em contato com a gente
+        </h4>
+
+      </div>
+
+    </div>
+
+
+    <div class="row d-flex align-items-center">
+
+      <div class="col-md-6">
+
+        <div class="container text-light">
+            <form>
+
+              <label for="nome">Nome: </label> <br>
+              <input type="text" id='nome' onkeyup='validaNome()'>
+              <div id="txtNome"></div>
+              <br>
+
+              <label for="email">Email: </label> <br>
+              <input type="text" id='email' onkeyup="validaEmail()">
+              <div id="txtEmail"></div>
+              <br>
+
+              <label for="assunto">Assunto: </label> <br>
+              <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
+              <div id="txtAssunto"></div>
+              <br>
+              <br>
+
+              <button onclick="enviar()">Enviar</button>
+            </form>
+          </div>
+      </div>
+         
+        
+        <div class="col-md-6">
+
+            <div>
+
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14620.71447967285!2d-46.7047643!3d-23.6337734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50e14ef357cf%3A0xa4276ebff7fdb510!2sSampa%20Burger%20-%20Verbo%20Divino!5e0!3m2!1spt-BR!2sbr!4v1603304351001!5m2!1spt-BR!2sbr"
+                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0" id="mapa" onmousemove="zoomMapa()" onmouseout="normalMapa()">
+              </iframe>
+            </div>
+
+            <h4 class="text-light text-center" >Endereço:</h4>
+              <p class="text-light text-center">Rua Verbo Divino, 994</p>
+              <p class="text-light text-center">São Paulo, SP</p>
+          </div>
+
+    </div>
+      
+  
+        <!-- /Formulário -->
+
+
+        <!-- Footer -->
+
+        <hr>
+        <footer class=>
+          <div class="row mb-3">
+
+            <div class="col-md-12 d-flex justify-content-center">
+
+              <a href="https://github.com/AlexMeschnark" target="_blank" class="p-3">
+
+                <img height="50px" width="50px" src="assets/img/github.png" alt="Logo do Github">
+
+              </a>
+
+              <a href="https://www.instagram.com/" target="_blank" class="p-3">
+
+                <img height="50px" width="50px" src="assets/img/instagram.png" alt="Logo do Instagram">
+
+              </a>
+
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+
+              <p class="text-center text-light">
+                Direitos autoriais: Alex Frederico Meschnark. &copy;
+              </p>
+
+            </div>
+          </div>
+
+        </footer>
+
+        <!-- /Footer -->
+
+
+
+</body>
+
+</html>
